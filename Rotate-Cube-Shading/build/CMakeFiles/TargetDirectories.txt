@@ -1,0 +1,3 @@
+/Users/zijing/Desktop/Graphics/Rotate-Cube-Shading/build/CMakeFiles/RotateCubeShading.dir
+/Users/zijing/Desktop/Graphics/Rotate-Cube-Shading/build/CMakeFiles/edit_cache.dir
+/Users/zijing/Desktop/Graphics/Rotate-Cube-Shading/build/CMakeFiles/rebuild_cache.dir

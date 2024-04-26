@@ -1,0 +1,3 @@
+/Users/zijing/Desktop/Graphics/Test/build/CMakeFiles/Example.dir
+/Users/zijing/Desktop/Graphics/Test/build/CMakeFiles/edit_cache.dir
+/Users/zijing/Desktop/Graphics/Test/build/CMakeFiles/rebuild_cache.dir

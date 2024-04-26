@@ -1,0 +1,3 @@
+/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Assignment2/Rotate-sphere/build/CMakeFiles/Assignment2.dir
+/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Assignment2/Rotate-sphere/build/CMakeFiles/edit_cache.dir
+/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Assignment2/Rotate-sphere/build/CMakeFiles/rebuild_cache.dir

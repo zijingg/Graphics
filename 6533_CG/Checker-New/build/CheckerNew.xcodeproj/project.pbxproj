@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		01B6CA30E2034C7486AB0641 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 774B91479D394396A6A30DB8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B3104DAF151C2A4E3DE5F1E6 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		32801EDD52FF4E86A300D03F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04D511A35F624FE3909BA908 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				933E17F58F0D831A794ED793 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				CFD11536BFDC47A1833FDCF6 /* PBXTargetDependency */,
+				ED97A49830E7410E80F83734 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0652FD8490D343E283D317AD /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/Angel-yjc.h */ = {isa = PBXBuildFile; fileRef = 1CEEC1A1363B46EDB67B86E4 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/Angel-yjc.h */; };
+		0B0F8DFEFF4145C4AA9390A1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework */ = {isa = PBXBuildFile; fileRef = 30C34F099E704A1FBBCF0D5F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework */; };
+		145BF2B6705D47B0BAB4A884 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = F8FE872385E442348B37800A /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Cocoa.framework */; };
+		55B44BAFC85E4BE3A5EB1938 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CheckError.h */ = {isa = PBXBuildFile; fileRef = 16A1AC75D9194FD7985455CC /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CheckError.h */; };
+		85957E3DA2E24BDC8D6FAC2D /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 43CF53231D784643AE9F1029 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CMakeLists.txt */; };
+		8BB356484D154AD0B5C59DA6 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/vec.h */ = {isa = PBXBuildFile; fileRef = 094F9812BFAE4F54821607F2 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/vec.h */; };
+		A2825F1BEB1A45CA97D55F44 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = B412996B1AC64F2C97D94B99 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		BDEF69618DD640FA817B9867 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/mat-yjc-new.h */ = {isa = PBXBuildFile; fileRef = 0D83146EAEDD4BFDAC94E3F2 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/mat-yjc-new.h */; };
+		D8499AADE7EC40EBB97FD635 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/checker-new.cpp */ = {isa = PBXBuildFile; fileRef = 58D1C47C493E47AD92300C12 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/checker-new.cpp */; };
+		DF74C07197F643D2BD1DD67F /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/InitShader.cpp */ = {isa = PBXBuildFile; fileRef = 58664AB5CA774E95BC7C5F9A /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/InitShader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		22D1A0202B3E48C187EE5C91 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E9BFC8BC7CC840B6AC49149A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F9D7A132DC05458C90A0019F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FAE913B68C9B4945A0CF1A89 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		45B939E7AE704BFABD641B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFB924959C841B189903B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CCD7E04421D411883D5AA8F;
+			remoteInfo = CheckerNew;
+		};
+		79957DC436AA4739BD53B652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFB924959C841B189903B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B6CA30E2034C7486AB0641;
+			remoteInfo = ZERO_CHECK;
+		};
+		BE4E66261D184548B2FE83D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFB924959C841B189903B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B6CA30E2034C7486AB0641;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094F9812BFAE4F54821607F2 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = vec.h; sourceTree = SOURCE_ROOT; };
+		09D7B0420AC447A389F829A5 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0D83146EAEDD4BFDAC94E3F2 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/mat-yjc-new.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mat-yjc-new.h"; path = "mat-yjc-new.h"; sourceTree = SOURCE_ROOT; };
+		16A1AC75D9194FD7985455CC /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = CheckError.h; sourceTree = SOURCE_ROOT; };
+		1CEEC1A1363B46EDB67B86E4 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/Angel-yjc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "Angel-yjc.h"; path = "Angel-yjc.h"; sourceTree = SOURCE_ROOT; };
+		30C34F099E704A1FBBCF0D5F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		43CF53231D784643AE9F1029 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		58664AB5CA774E95BC7C5F9A /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/InitShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InitShader.cpp; path = InitShader.cpp; sourceTree = SOURCE_ROOT; };
+		58D1C47C493E47AD92300C12 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/checker-new.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "checker-new.cpp"; path = "checker-new.cpp"; sourceTree = SOURCE_ROOT; };
+		635942745E8D45FAB58AC7EC /* CheckerNew */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = CheckerNew; sourceTree = BUILT_PRODUCTS_DIR; };
+		B412996B1AC64F2C97D94B99 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F8FE872385E442348B37800A /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32382060AB5544558379C33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E89F2A805814F17A9E2C131 = {
+			isa = PBXGroup;
+			children = (
+				8E8CB651F5CA43D7BDB1FE10 /* CheckerNew */,
+				54AFC538FC984BAFAD6EDAAF /* ALL_BUILD */,
+				95B01D748DEA46F9A10FEE80 /* Products */,
+				54DEC20B6E7F43748B6A689E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33B40B45420641AA856AB6CD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		54AFC538FC984BAFAD6EDAAF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				33B40B45420641AA856AB6CD /* CMake Rules */,
+				09D7B0420AC447A389F829A5 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		54DEC20B6E7F43748B6A689E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B412996B1AC64F2C97D94B99 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework */,
+				30C34F099E704A1FBBCF0D5F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework */,
+				F8FE872385E442348B37800A /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D8BB0EC029149D389DA9828 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CEEC1A1363B46EDB67B86E4 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/Angel-yjc.h */,
+				16A1AC75D9194FD7985455CC /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CheckError.h */,
+				0D83146EAEDD4BFDAC94E3F2 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/mat-yjc-new.h */,
+				094F9812BFAE4F54821607F2 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8E8CB651F5CA43D7BDB1FE10 /* CheckerNew */ = {
+			isa = PBXGroup;
+			children = (
+				F3E5F5EADCDD4E2EAA427883 /* Source Files */,
+				6D8BB0EC029149D389DA9828 /* Header Files */,
+				43CF53231D784643AE9F1029 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/CMakeLists.txt */,
+			);
+			name = CheckerNew;
+			sourceTree = "<group>";
+		};
+		95B01D748DEA46F9A10FEE80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635942745E8D45FAB58AC7EC /* CheckerNew */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E5F5EADCDD4E2EAA427883 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				58664AB5CA774E95BC7C5F9A /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/InitShader.cpp */,
+				58D1C47C493E47AD92300C12 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/checker-new.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CCD7E04421D411883D5AA8F /* CheckerNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0956DA35B502416DBA974D99 /* Build configuration list for PBXNativeTarget "CheckerNew" */;
+			buildPhases = (
+				69011966E4DB4630A45476C5 /* Sources */,
+				32382060AB5544558379C33B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8A2FE06C65046CD8DFE1D9F /* PBXTargetDependency */,
+			);
+			name = CheckerNew;
+			productName = CheckerNew;
+			productReference = 635942745E8D45FAB58AC7EC /* CheckerNew */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFB924959C841B189903B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 5257E966311B40B08B9252CD /* Build configuration list for PBXProject "CheckerNew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F9D7A132DC05458C90A0019F /* Debug */,
+				FAE913B68C9B4945A0CF1A89 /* Release */,
+				22D1A0202B3E48C187EE5C91 /* MinSizeRel */,
+				E9BFC8BC7CC840B6AC49149A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2E89F2A805814F17A9E2C131;
+			projectDirPath = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New";
+			projectRoot = "";
+			targets = (
+				32801EDD52FF4E86A300D03F /* ALL_BUILD */,
+				6CCD7E04421D411883D5AA8F /* CheckerNew */,
+				01B6CA30E2034C7486AB0641 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		933E17F58F0D831A794ED793 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B3104DAF151C2A4E3DE5F1E6 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  make -f /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  make -f /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  make -f /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build
+  make -f /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69011966E4DB4630A45476C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF74C07197F643D2BD1DD67F /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/InitShader.cpp */,
+				D8499AADE7EC40EBB97FD635 /* /Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/checker-new.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8A2FE06C65046CD8DFE1D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B6CA30E2034C7486AB0641 /* ZERO_CHECK */;
+			targetProxy = 79957DC436AA4739BD53B652 /* PBXContainerItemProxy */;
+		};
+		CFD11536BFDC47A1833FDCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B6CA30E2034C7486AB0641 /* ZERO_CHECK */;
+			targetProxy = BE4E66261D184548B2FE83D9 /* PBXContainerItemProxy */;
+		};
+		ED97A49830E7410E80F83734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CCD7E04421D411883D5AA8F /* CheckerNew */;
+			targetProxy = 45B939E7AE704BFABD641B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		214388E1B44D4940AF443CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build";
+			};
+			name = Debug;
+		};
+		2249F78B84FE48A89D21E93D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		38649BDCEDC84FB9BD89C80E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework/Headers,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker GLUT","-Xlinker -framework -Xlinker Cocoa","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckerNew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build/CheckerNew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		47ABD6664DE04EE791A19965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build";
+			};
+			name = Release;
+		};
+		47EEDE09B9F54CAE824CC36E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		480A158043EA4BA28A5C2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5F7AF92C86AD448F912C3495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6943700D9C7F44EDB800E706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework/Headers,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker GLUT","-Xlinker -framework -Xlinker Cocoa","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckerNew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build/CheckerNew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6E28EC55564B45089DB50862 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E4CD359999346D9A78DA79A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build";
+			};
+			name = MinSizeRel;
+		};
+		8CCDD409739B47E9992B3F49 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9939CEF1746C4E53A394F126 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A60D773E3395464F9E101E1F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework/Headers,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11        -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker GLUT","-Xlinker -framework -Xlinker Cocoa","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckerNew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build/CheckerNew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A617A4B8B47D468EB11CA36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C561E00061DE42A993DCB099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D4180496B6434127A6CFE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GLUT.framework/Headers,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11      -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker GLUT","-Xlinker -framework -Xlinker Cocoa","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckerNew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/build/CheckerNew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D511A35F624FE3909BA908 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A617A4B8B47D468EB11CA36D /* Debug */,
+				480A158043EA4BA28A5C2933 /* Release */,
+				6E28EC55564B45089DB50862 /* MinSizeRel */,
+				47EEDE09B9F54CAE824CC36E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0956DA35B502416DBA974D99 /* Build configuration list for PBXNativeTarget "CheckerNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4180496B6434127A6CFE5B7 /* Debug */,
+				6943700D9C7F44EDB800E706 /* Release */,
+				38649BDCEDC84FB9BD89C80E /* MinSizeRel */,
+				A60D773E3395464F9E101E1F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5257E966311B40B08B9252CD /* Build configuration list for PBXProject "CheckerNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214388E1B44D4940AF443CC9 /* Debug */,
+				47ABD6664DE04EE791A19965 /* Release */,
+				6E4CD359999346D9A78DA79A /* MinSizeRel */,
+				2249F78B84FE48A89D21E93D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		774B91479D394396A6A30DB8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7AF92C86AD448F912C3495 /* Debug */,
+				C561E00061DE42A993DCB099 /* Release */,
+				8CCDD409739B47E9992B3F49 /* MinSizeRel */,
+				9939CEF1746C4E53A394F126 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFB924959C841B189903B19 /* Project object */;
+}
