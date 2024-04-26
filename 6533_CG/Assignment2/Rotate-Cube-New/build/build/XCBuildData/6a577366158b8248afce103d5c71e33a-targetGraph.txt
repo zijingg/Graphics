@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-ZERO_CHECK in RotateCubeNew, no dependencies
-RotateCubeNew in RotateCubeNew, depends on:
-ZERO_CHECK in RotateCubeNew (explicit)

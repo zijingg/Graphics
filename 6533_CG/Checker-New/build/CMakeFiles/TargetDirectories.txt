@@ -1,3 +1,0 @@
-/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeFiles/CheckerNew.dir
-/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeFiles/ALL_BUILD.dir
-/Users/ahhyunmoon/NYU_Class/6533_Interactive_CG/Checker-New/build/CMakeFiles/ZERO_CHECK.dir

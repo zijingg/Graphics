@@ -1,3 +1,0 @@
-/Users/ahhyunmoon/NYU_Class/Rotate-Cube-New/build/CMakeFiles/RotateCubeNew.dir
-/Users/ahhyunmoon/NYU_Class/Rotate-Cube-New/build/CMakeFiles/ALL_BUILD.dir
-/Users/ahhyunmoon/NYU_Class/Rotate-Cube-New/build/CMakeFiles/ZERO_CHECK.dir
